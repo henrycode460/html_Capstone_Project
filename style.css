@@ -1,271 +1,270 @@
 .logo-img {
-    max-width: 180px;
-    max-height: 180px;
-  }
-  
-  .hambugerBtn,
-  .fa-bars {
-    border: none;
-    background: none;
-    font-size: 50px;
-    cursor: pointer;
-  }
-  
-  .hambugerMenu {
-    padding: 5px 30px;
-  }
-  
-  .header {
-    background-image: url(asset/images/mobile-main-background.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .heading-sec {
-    padding: 30px 15px;
-  }
-  
-  .greetingText {
-    font-family: 'lato', sans-serif;
-    color: #ec5242;
-    font-size: 18px;
-  }
-  
-  .course_description {
-    font-family: cocogoose, sans-serif;
-    font-size: 32px;
-    background-image: url(asset/images/headingText-background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: -8px;
-  }
-  
-  .course_details {
-    padding: 0 10px;
-    text-align: justify;
-    font-family: 'lato', sans-serif;
-  }
-  
-  .course_time {
-    font-family: cocogoose, sans-serif;
-    color: #272a31;
-  }
-  
-  .course_venue {
-    font-family: 'lato', sans-serif;
-    font-weight: 600px;
-    font-size: 18px;
-    color: #474545;
-    margin-top: -10px;
-  }
-  
-  /* mean program */
-  
-  .program_text_line {
-    height: 5px;
-    width: 70px;
-    color: black;
-    background-color: #ec5242;
-    margin: 0 auto;
-  }
-  
-  .program-section {
-    margin-top: 2px;
-    background-image: url(asset/images/programSectImage.jpg);
-  }
-  
-  .program_text {
-    color: #fff;
-    font-family: cocogoose, sans-serif;
-  }
-  
-  .program_heading {
-    text-align: center;
-    align-items: center;
-  }
-  
-  .list_image {
-    margin-top: 11px;
-    font-size: 50px;
-    padding: 0 15px;
-    color: #fff;
-  }
-  
-  .program-list {
-    display: grid;
-    grid-template-columns: 20% 30% 45%;
-    background-color: #d3d3d326;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    max-width: 650px;
-    height: 125px;
-  }
-  
-  .list-title {
-    left: 0;
-    color: #ec5242;
-    font-family: 'lato', sans-serif;
-    font-size: 17px;
-    padding: 20px 10px;
-  }
-  
-  .list-details {
-    padding-left: 25px;
-    text-align: justify;
-    font-size: 14px;
-    color: #fff;
-    font-family: 'lato', sans-serif;
-  }
-  
-  .joinSubmit {
-    background-color: #ec5242;
-    padding: 30px 30px;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-  }
-  
-  .program-sec-wrapper {
-    padding: 30px 30px;
-    margin: 0 auto;
-    align-items: center;
-  }
-  
-  .joinsubmit-text-link {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 300px;
-    text-transform: capitalize;
-    font-family: 'lato', sans-serif;
-    font-size: 18px;
-  }
-  
-  /* feature speaker */
-  
-  .card-speaker_name {
-    font-family: 'lato', sans-serif;
-    color: #272a31;
-  }
-  
-  .card_speaker-job {
-    font-family: 'lato', sans-serif;
-    color: #ec5242;
-    font-style: italic;
-  }
-  
-  .speaker-job-desc {
-    font-family: 'lato', sans-serif;
-    color: #272a31;
-  }
-  
-  .featureSpeaker-section {
-    margin-top: 30px;
-  }
-  
-  .featureSpeaker_text {
-    font-family: 'lato', sans-serif;
-    color: #272a31;
-  }
-  
-  .featureSpeaker_text_line {
-    height: 5px;
-    width: 70px;
-    color: black;
-    background-color: #ec5242;
-    margin: 0 auto;
-  }
-  
-  .featureSpeaker_heading {
-    text-align: center;
-    align-items: center;
-  }
-  
-  hr {
-    max-width: 20px;
-    text-align: justify;
-    margin-left: 1px;
-    color: #272a31;
-  }
-  
-  .speakerCard {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    margin-top: 30px;
-  }
-  
-  .speakerCard-sec {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* partner section */
-  
-  .partner-sec-wrapper {
-    padding: 20px 25px;
-  }
-  
-  .partner_text {
-    font-family: 'lato', sans-serif;
-    color: #fff;
-    font-size: 30px;
-  }
-  
-  .partner_text_line {
-    height: 5px;
-    width: 70px;
-    background-color: #ec5242;
-    margin: 0 auto;
-  }
-  
-  .partner_heading {
-    text-align: center;
-    align-items: center;
-  }
-  
-  .partner-sec {
-    background-color: #272a31;
-    margin-top: 20px;
-  }
-  
-  .partner-logo_img {
-    max-height: 80px;
-    max-width: 80px;
-  }
-  
-  .partner-logo {
-    display: grid;
-    grid-template-columns: 30%  30%   30%;
-    align-items: center;
-    margin-left: 50px;
-  }
-  
-  .partner-logo_two {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    margin-left: 100px;
-    margin-top: 20px;
-    align-items: center;
-  }
-  
-  /* footer */
-  
-  .footer_logo {
-    max-height: 120px;
-    max-width: 120px;
-  }
-  
-  .footer-sec {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-  
+  max-width: 180px;
+  max-height: 180px;
+}
+
+.hambugerBtn,
+.fa-bars {
+  border: none;
+  background: none;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.hambugerMenu {
+  padding: 5px 30px;
+}
+
+.header {
+  background-image: url(asset/images/mobile-main-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading-sec {
+  padding: 30px 15px;
+}
+
+.greetingText {
+  font-family: 'lato', sans-serif;
+  color: #ec5242;
+  font-size: 18px;
+}
+
+.course_description {
+  font-family: cocogoose, sans-serif;
+  font-size: 32px;
+  background-image: url(asset/images/headingText-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -8px;
+}
+
+.course_details {
+  padding: 0 10px;
+  text-align: justify;
+  font-family: 'lato', sans-serif;
+}
+
+.course_time {
+  font-family: cocogoose, sans-serif;
+  color: #272a31;
+}
+
+.course_venue {
+  font-family: 'lato', sans-serif;
+  font-weight: 600px;
+  font-size: 18px;
+  color: #474545;
+  margin-top: -10px;
+}
+
+/* mean program */
+
+.program_text_line {
+  height: 5px;
+  width: 70px;
+  color: black;
+  background-color: #ec5242;
+  margin: 0 auto;
+}
+
+.program-section {
+  margin-top: 2px;
+  background-image: url(asset/images/programSectImage.jpg);
+}
+
+.program_text {
+  color: #fff;
+  font-family: cocogoose, sans-serif;
+}
+
+.program_heading {
+  text-align: center;
+  align-items: center;
+}
+
+.list_image {
+  margin-top: 11px;
+  font-size: 50px;
+  padding: 0 15px;
+  color: #fff;
+}
+
+.program-list {
+  display: grid;
+  grid-template-columns: 20% 30% 45%;
+  background-color: #d3d3d326;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 650px;
+  height: 125px;
+}
+
+.list-title {
+  left: 0;
+  color: #ec5242;
+  font-family: 'lato', sans-serif;
+  font-size: 17px;
+  padding: 20px 10px;
+}
+
+.list-details {
+  padding-left: 25px;
+  text-align: justify;
+  font-size: 14px;
+  color: #fff;
+  font-family: 'lato', sans-serif;
+}
+
+.joinSubmit {
+  background-color: #ec5242;
+  padding: 30px 30px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.program-sec-wrapper {
+  padding: 30px 30px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.joinsubmit-text-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300px;
+  text-transform: capitalize;
+  font-family: 'lato', sans-serif;
+  font-size: 18px;
+}
+
+/* feature speaker */
+
+.card-speaker_name {
+  font-family: 'lato', sans-serif;
+  color: #272a31;
+}
+
+.card_speaker-job {
+  font-family: 'lato', sans-serif;
+  color: #ec5242;
+  font-style: italic;
+}
+
+.speaker-job-desc {
+  font-family: 'lato', sans-serif;
+  color: #272a31;
+}
+
+.featureSpeaker-section {
+  margin-top: 30px;
+}
+
+.featureSpeaker_text {
+  font-family: 'lato', sans-serif;
+  color: #272a31;
+}
+
+.featureSpeaker_text_line {
+  height: 5px;
+  width: 70px;
+  color: black;
+  background-color: #ec5242;
+  margin: 0 auto;
+}
+
+.featureSpeaker_heading {
+  text-align: center;
+  align-items: center;
+}
+
+hr {
+  max-width: 20px;
+  text-align: justify;
+  margin-left: 1px;
+  color: #272a31;
+}
+
+.speakerCard {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.speakerCard-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* partner section */
+
+.partner-sec-wrapper {
+  padding: 20px 25px;
+}
+
+.partner_text {
+  font-family: 'lato', sans-serif;
+  color: #fff;
+  font-size: 30px;
+}
+
+.partner_text_line {
+  height: 5px;
+  width: 70px;
+  background-color: #ec5242;
+  margin: 0 auto;
+}
+
+.partner_heading {
+  text-align: center;
+  align-items: center;
+}
+
+.partner-sec {
+  background-color: #272a31;
+  margin-top: 20px;
+}
+
+.partner-logo_img {
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.partner-logo {
+  display: grid;
+  grid-template-columns: 30%  30%   30%;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.partner-logo_two {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  margin-left: 100px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+/* footer */
+
+.footer_logo {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.footer-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
