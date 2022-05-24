@@ -1,8 +1,3 @@
-.logo-img {
-  max-width: 180px;
-  max-height: 180px;
-}
-
 .hambugerBtn,
 .fa-bars {
   border: none;
@@ -39,7 +34,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: -8px;
 }
@@ -90,7 +85,7 @@
 
 .list_image {
   margin-top: 11px;
-  font-size: 50px;
+  font-size: 40px;
   padding: 0 15px;
   color: #fff;
 }
@@ -116,7 +111,7 @@
 .list-details {
   padding-left: 25px;
   text-align: justify;
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
   font-family: 'lato', sans-serif;
 }
@@ -267,4 +262,192 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 40px;
+}
+
+.logo {
+  display: none;
+}
+
+/* Desktop Version  */
+
+@media (min-width: 772px) {
+  .hambugerMenu {
+    display: none;
+  }
+
+  .header {
+    background-image: url(asset/images/mainBackgroundImg.png);
+    background-position: center;
+  }
+
+  .logo {
+    display: flex;
+    margin-left: 150px;
+  }
+
+  .logo-img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .upper-navbar-list {
+    display: inline-flex;
+    list-style: none;
+  }
+
+  .upper-navbar-link {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fff;
+  }
+
+  .uppperNavBar {
+    background-color: #272a31;
+    border: 1px solid #272a31;
+    height: 40px;
+  }
+
+  .upper-nav-head {
+    text-align: right;
+    margin-right: 80px;
+  }
+
+  .logo-navbar-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .navbarTwo-list {
+    display: inline-flex;
+    margin-right: 25px;
+    list-style: none;
+  }
+
+  .navbarTwo-link {
+    text-decoration: none;
+    color: #474545;
+    font-family: 'lato', sans-serif;
+  }
+
+  .navbarTwo-head {
+    margin-right: 45px;
+  }
+
+  .navbarTwo-list:last-child {
+    border: 5px solid #ec5242;
+    padding: 10px 10px;
+  }
+
+  /* heading text section */
+
+  .heading-sec {
+    padding: 50px 80px;
+  }
+
+  .greetingText {
+    font-family: 'lato', sans-serif;
+    color: #ec5242;
+    font-size: 25px;
+  }
+
+  .course_description {
+    font-family: cocogoose, sans-serif;
+    font-size: 45px;
+    background-image: url(asset/images/headingText-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -8px;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+
+  .course_details {
+    text-align: justify;
+    font-family: 'lato', sans-serif;
+    border: 4px solid #fff;
+    padding: 10px 10px;
+    max-width: 400px;
+    margin-left: 15px;
+  }
+
+  .course_time {
+    font-family: cocogoose, sans-serif;
+    color: #272a31;
+    margin-left: 15px;
+  }
+
+  .course_venue {
+    font-family: 'lato', sans-serif;
+    font-weight: 600px;
+    font-size: 18px;
+    color: #474545;
+    margin-top: -10px;
+    margin-left: 15px;
+  }
+
+  /* program section */
+  .program-list-wrapper {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 10px;
+    padding: 20px 50px 20px 20px;
+    grid-column-end: auto;
+  }
+
+  .program-list {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    padding: 0 10px;
+  }
+
+  .list-details {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'lato', sans-serif;
+  }
+
+  .list-title {
+    color: #ec5242;
+    font-family: 'lato', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 1px 1px;
+  }
+
+  .joinsubmit-text-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300px;
+    text-transform: capitalize;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+  }
+
+  .list_image {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .joinSubmit {
+    display: none;
+  }
+
+  .seeProgram-text-link {
+    text-align: center;
+    margin-left: 45%;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+  }
+
+  .program-section {
+    padding: 40px 5px;
+  }
 }
