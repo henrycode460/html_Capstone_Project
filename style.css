@@ -268,6 +268,18 @@ hr {
   display: none;
 }
 
+.uppperNavBar {
+  display: none;
+}
+
+.navbarTwo {
+  display: none;
+}
+
+.seeprogram {
+  display: none;
+}
+
 /* Desktop Version  */
 
 @media (min-width: 772px) {
@@ -305,6 +317,10 @@ hr {
     background-color: #272a31;
     border: 1px solid #272a31;
     height: 40px;
+    width: 100vw;
+    margin-top: -10px;
+    margin-left: -10px;
+    display: block;
   }
 
   .upper-nav-head {
@@ -319,16 +335,28 @@ hr {
     background-color: #fff;
   }
 
+  .navbarTwo {
+    display: block;
+  }
+
   .navbarTwo-list {
     display: inline-flex;
-    margin-right: 25px;
     list-style: none;
+    margin-right: 4px;
   }
 
   .navbarTwo-link {
     text-decoration: none;
     color: #474545;
     font-family: 'lato', sans-serif;
+  }
+
+  .navbarTwo-link:hover {
+    color: #ec5242;
+  }
+
+  .upper-navbar-link:hover {
+    color: #ec5242;
   }
 
   .navbarTwo-head {
@@ -447,7 +475,31 @@ hr {
     font-size: 18px;
   }
 
+  .seeprogram {
+    display: block;
+  }
+
   .program-section {
     padding: 40px 5px;
+  }
+
+  /* feature speaker */
+  .speakerCard-sec {
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px 75px;
+  }
+
+  .partner-logo {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+
+  /* footer  */
+  .copy-right {
+    padding: 0 70px;
   }
 }
