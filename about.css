@@ -14,6 +14,7 @@
 
 .hambugerMenu {
   padding: 5px 30px;
+  display: block;
 }
 
 .header {
@@ -62,7 +63,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: -8px;
   text-align: center;
@@ -91,20 +92,16 @@
 /* mean program */
 
 .program_text_line {
-  height: 5px;
+  height: 2px;
   width: 70px;
   color: black;
   background-color: #ec5242;
   margin: 0 auto;
 }
 
-.program-section {
-  margin-top: 2px;
-}
-
 .program_text {
   color: #272a31;
-  font-family: cocogoose, sans-serif;
+  font-family: 'lato', sans-serif;
 }
 
 .logo-designed-des {
@@ -119,6 +116,8 @@
 
 .program-line {
   width: 100%;
+  margin-top: 2px;
+  opacity: 0.23;
 }
 
 .program_heading {
@@ -189,8 +188,14 @@
   margin-top: 15px;
 }
 
+.past-event-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .video-content {
-  height: 350px;
+  height: 225px;
   background: #ec5242;
   margin-top: -56%;
   mix-blend-mode: hard-light;
@@ -204,6 +209,10 @@
   font-family: 'lato', sans-serif;
   font-size: 25px;
   font-weight: bold;
+}
+
+.pastEvenDetail {
+  font-size: 18px;
 }
 
 .featureSpeaker_text_line {
@@ -255,7 +264,8 @@
 
 .partner-logo {
   display: grid;
-  grid-template-columns: 30%  30%   30%;
+  grid-template-columns: 33.3%  33.3%   33.3%;
+  gap: 10px;
   align-items: center;
   margin-left: 50px;
 }
@@ -281,4 +291,182 @@
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 0;
+}
+
+.logo {
+  display: none;
+}
+
+.uppperNavBar {
+  display: none;
+}
+
+.navbarTwo {
+  display: none;
+}
+
+@media (min-width: 772px) {
+  .footer_logo {
+    display: block;
+  }
+
+  .upper-navbar-list {
+    display: inline-flex;
+    list-style: none;
+  }
+
+  .upper-navbar-link {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fff;
+  }
+
+  .uppperNavBar {
+    background-color: #272a31;
+    border: 1px solid #272a31;
+    height: 40px;
+    width: 100vw;
+    margin-top: -10px;
+    margin-left: -10px;
+    display: block;
+  }
+
+  .upper-nav-head {
+    text-align: right;
+    margin-right: 80px;
+  }
+
+  .logo-navbar-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .navbarTwo {
+    display: block;
+  }
+
+  .navbarTwo-list {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 4px;
+  }
+
+  .navbarTwo-link {
+    text-decoration: none;
+    color: #474545;
+    font-family: 'lato', sans-serif;
+  }
+
+  .navbarTwo-link:hover {
+    color: #ec5242;
+  }
+
+  .upper-navbar-link:hover {
+    color: #ec5242;
+  }
+
+  .navbarTwo-head {
+    margin-right: 45px;
+  }
+
+  .navbarTwo-list:last-child {
+    border: 5px solid #ec5242;
+    padding: 10px 10px;
+  }
+
+  .logo-img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .logo {
+    display: flex;
+    margin-left: 150px;
+  }
+
+  .hambugerMenu {
+    display: none;
+  }
+
+  .header {
+    background-image: url(asset/images/mainBackgroundImg.png);
+    background-position: center;
+  }
+
+  /* heading text section */
+
+  .heading-sec {
+    padding: 80px 0;
+  }
+
+  .greetingText {
+    font-size: 30px;
+  }
+
+  .course_description {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  .course_details {
+    border: 2px solid #fff;
+    background-color: #fff;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 15px;
+  }
+
+  .course_contact {
+    margin-top: 30px;
+  }
+
+  /* past event */
+
+  .past-event-wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .past-event-video {
+    max-width: 375px;
+  }
+
+  /* partner */
+  .partner-logo {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+  .partner-sec {
+    display: none;
+  }
+
+  /* footer  */
+
+  .copy-right {
+    padding: 40px 60px;
+    color: #fff;
+    margin-top: 30px;
+  }
+
+  .footer_logo-head {
+    padding: 5px 80px;
+    margin-top: 30px;
+  }
+
+  .footer-sec {
+    background-color: #272a31;
+    height: 200px;
+    margin-top: 60px;
+  }
 }
