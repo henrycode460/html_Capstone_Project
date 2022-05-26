@@ -373,6 +373,37 @@ hr {
   visibility: visible;
 }
 
+/* extra feature */
+.deadline-format {
+  background: #272a31;
+  color: #ec5242;
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3.5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.deadline {
+  display: flex;
+  margin-left: 40px;
+}
+
+.deadline h4:not(.expired) {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: var(--spacing);
+  margin-top: -8px;
+}
+
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+
 /* Desktop Version  */
 
 @media (min-width: 778px) {
