@@ -181,9 +181,9 @@ body {
   height: 125px;
 }
 
-.program-list:hover{
-border: 2px solid white;
-cursor: pointer;
+.program-list:hover {
+  border: 2px solid white;
+  cursor: pointer;
 }
 
 .list-title {
@@ -427,7 +427,7 @@ hr {
     margin-left: 80px;
   }
 
-.logo:hover{
+  .logo:hover {
     cursor: pointer;
   }
 
@@ -642,7 +642,6 @@ hr {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
-
 
   /* footer  */
   .copy-right {
