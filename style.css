@@ -190,7 +190,7 @@ cursor: pointer;
   left: 0;
   color: #ec5242;
   font-family: 'lato', sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   padding: 20px 10px;
 }
 
@@ -576,7 +576,7 @@ hr {
 
   .list-details {
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     font-family: 'lato', sans-serif;
   }
@@ -599,7 +599,7 @@ hr {
   }
 
   .list_image {
-    font-size: 40px;
+    font-size: 48px;
     color: #fff;
     text-align: center;
   }
@@ -613,6 +613,7 @@ hr {
     margin-left: 45%;
     font-family: 'lato', sans-serif;
     font-size: 18px;
+    color: #ec5242;
   }
 
   .seeprogram {
