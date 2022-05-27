@@ -54,6 +54,7 @@ Give a ⭐️ if you like this project!
 - Micronaots.
 - My partners.
 - Creative Commons license of the design
+-  Cindy Shin.
 
 
 
