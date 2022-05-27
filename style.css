@@ -181,6 +181,11 @@ body {
   height: 125px;
 }
 
+.program-list:hover{
+border: 2px solid white;
+cursor: pointer;
+}
+
 .list-title {
   left: 0;
   color: #ec5242;
