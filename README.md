@@ -42,7 +42,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]([../../issues/](https://github.com/henrycode460/html_Capstone_Project/issues)).
+Feel free to check the [issues page](https://github.com/henrycode460/html_Capstone_Project/issues)
 
 ## Show your support
 
