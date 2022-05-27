@@ -427,6 +427,10 @@ hr {
     margin-left: 80px;
   }
 
+.logo:hover{
+    cursor: pointer;
+  }
+
   .logo-img {
     max-width: 80px;
     max-height: 80px;
@@ -638,6 +642,7 @@ hr {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
+
 
   /* footer  */
   .copy-right {
