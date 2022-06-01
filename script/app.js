@@ -2,7 +2,7 @@
 // navigation script
 const navOpenBtn = document.querySelector("#hambugerBtn");
 const navCloseBtn = document.querySelector("#btnClose");
-const navElem = document.querySelector("nav");
+const navElem = document.querySelector("#navbarTwo");
 let closeNavBar = document.querySelectorAll(".navbarTwo-link");
 
 for(i = 0; i < closeNavBar.length; i++ ){
@@ -106,7 +106,7 @@ const giveaway = document.querySelector(".course_time");
 const deadline = document.querySelector(".deadline");
 const item = document.querySelectorAll(".deadline-format h4");
 
-let futureDate = new Date(2022,4,31,11,13,40);
+let futureDate = new Date(2022,5,26,11,13,40);
 
 const year = futureDate.getFullYear();
 const hour = futureDate.getHours();
@@ -154,7 +154,7 @@ item.innerHTML = format(values[index]);
 });
   if(t < 0){
     clearInterval(countDown);
-    deadline.innerHTML = `<h4 class="expired">Sorry, This promotion has expired!!!</h4>`
+    deadline.innerHTML = `<h4 class="expired">Sorry, This submit is over!!!</h4>`
   }
 
 }
